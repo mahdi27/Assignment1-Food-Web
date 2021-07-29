@@ -229,21 +229,35 @@ input{
 /* Contact */
 .sec-contact{
     display: inline-bo;
-    /* margin: 0px 10%; */
     width: 100%;
     height: 200px;
     background-color: blueviolet;
     align-items: center;
+    margin: 10px 0px;
     
 }
 .contact1{
+    
+    text-align: center;
+    font-size: 18px;
     justify-items: center;
     margin: 0px 20%;
+    color: #e4e4e4;
+}
+.contact1 p:nth-child(1){
+    font-size: 29px;
+    font-weight: 600;
+}
+.contact2{
+    text-align: center;
+    color: beige;
+    font-weight: 600;
+    
 }
 .contact2 img{
-    width: 90%;
+    width: 100%;
     height: 150px;
-    margin: 0px 20%;
+    margin: 0px;
 
 }
 /* footer */
